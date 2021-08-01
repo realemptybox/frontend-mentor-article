@@ -1,0 +1,214 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 14px;
+  background-color: hsl(210, 46%, 95%);
+  text-align: left;
+}
+
+h1,
+h3 {
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  color: hsl(217, 19%, 35%);
+}
+
+h1 {
+  padding: 40px;
+  padding-bottom: 10px;
+}
+
+p {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: hsl(214, 17%, 51%);
+  padding: 40px;
+  padding-top: 0;
+  padding-bottom: 10px;
+}
+
+.container {
+  border: 0.5px solid white;
+  background-color: white;
+  width: 580px;
+  margin: auto;
+  margin-top: 280px;
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.text {
+  width: 450px;
+  padding-bottom: 0;
+}
+
+.share {
+  letter-spacing: 5px;
+  color: hsl(214, 17%, 51%);
+}
+
+.date {
+  color: hsl(212, 23%, 69%);
+  margin-left: 75px;
+  padding-top: 5px;
+  padding-bottom: 50px;
+}
+
+.pfp {
+  padding: 40px;
+
+  border-radius: 350px;
+  width: 50px;
+  height: 50px;
+}
+
+.author {
+  margin-left: 100px;
+  margin-top: -90px;
+  padding-left: 15px;
+}
+
+@keyframes fadeAnimation {
+  0%   { background-color:hsl(210, 46%, 95%); }
+  50%  { background-color: hsl(214, 17%, 51%); }
+  100% { background-color:hsl(217, 19%, 35%); }
+}
+@-o-keyframes fadeAnimation{
+  0%   { background-color:hsl(210, 46%, 95%); }
+  50%  { background-color: hsl(214, 17%, 51%); }
+  100% { background-color:hsl(217, 19%, 35%); }
+}
+@-moz-keyframes fadeAnimation{
+  0%   { background-color:hsl(210, 46%, 95%); }
+  50%  { background-color: hsl(214, 17%, 51%); }
+  100% { background-color:hsl(217, 19%, 35%); }
+}
+@-webkit-keyframes fadeAnimation{
+  0%   { background-color:hsl(210, 46%, 95%); }
+  50%  { background-color: hsl(214, 17%, 51%); }
+  100% { background-color:hsl(217, 19%, 35%); }
+}
+.animate-flicker {
+   -webkit-animation: fadeAnimation 1s infinite;
+   -moz-animation: fadeAnimation 1s infinite;
+   -o-animation: fadeAnimation 1s infinite;
+    animation: fadeAnimation 1s infinite;
+}
+
+button {
+  border: 0.4px solid hsl(210, 46%, 95%);
+  background-color: hsl(210, 46%, 95%);
+  border-radius: 350px;
+  height: 32px;
+  width: 32px;
+  margin-left: 500px;
+  margin-top: -80px;
+  float: left;
+  cursor: pointer;
+}
+
+button:hover {
+  -webkit-animation: fadeAnimation 1s linear;
+  -moz-animation: fadeAnimation 1s elinear;
+  -o-animation: fadeAnimation 1s elinear;
+   animation: fadeAnimation 1s linear;
+   background-color: hsl(217, 19%, 35%); 
+}
+
+
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 1167px;
+  margin-top: 525px; 
+
+  border-top: 20px solid hsl(217, 19%, 35%);
+
+}
+
+.share-container {
+  border: 1px solid hsl(217, 19%, 35%);
+  border-radius: 8px;
+  background-color: hsl(217, 19%, 35%);
+  width: 220px;
+  padding-bottom: 15px;
+  margin-left: 1085px;
+  margin-top: 470px; 
+  float: left;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.share {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  color: hsl(212, 23%, 69%);
+  text-transform: uppercase;
+  padding: 0;
+  display: inline-block;
+  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 0;
+}
+
+
+
+
+/* .share-container a {
+  margin-right: 10px;
+  padding-bottom: -10px;
+  display: inline-block;
+} */
+
+
+.facebook {
+display: block;
+margin-left: 115px;
+margin-top: -40px;
+}
+
+.twitter {
+  display: block;
+margin-left: 150px;
+margin-top: -22px;
+}
+
+.pinterest {
+  display: block;
+  margin-left: 183px;
+  margin-top: -23px;
+}
+
+.drawers {
+  height: 376px;
+  width: 350px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 280px;
+  margin-left: 325px;
+  border: 0 solid;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+}
+
+
+
+
+
+
